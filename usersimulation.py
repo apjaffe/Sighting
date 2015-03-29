@@ -54,6 +54,10 @@ def main():
 	crimePoster = AutoPoster("Batman","Crime",60.0,crimes)
 	autoposters.append(crimePoster)
 
+	foods = ["Cakes","Tarts","Cookies","Ice cream","Pie","Pudding","Brownies"]
+	foodPoster = AutoPoster("SweetTooth","Free food",90.0,foods)
+	autoposters.append(foodPoster)
+
 	for poster in autoposters:
 		poster.register()
 
