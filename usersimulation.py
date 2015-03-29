@@ -47,7 +47,7 @@ def main():
 	autoposters = []
 
 	diseases = ["Flu outbreak!","Measles spreading","Flu symptoms reported","Common cold symptoms reported","Caution advised"]
-	diseasePoster = AutoPoster("Germaphobe","Disease",30.0,diseases)
+	diseasePoster = AutoPoster("Germaphobe","Disease",60.0,diseases)
 	autoposters.append(diseasePoster)
 
 	crimes = ["Arson","Corruption","Burglary","Disorderly conduct","Forger on the loose!","Shoplifting","Robbery","Tax evasion","Vandalism"]
@@ -55,7 +55,7 @@ def main():
 	autoposters.append(crimePoster)
 
 	foods = ["Cakes","Tarts","Cookies","Ice cream","Pie","Pudding","Brownies"]
-	foodPoster = AutoPoster("SweetTooth","Free food",90.0,foods)
+	foodPoster = AutoPoster("SweetTooth","Free Food",90.0,foods)
 	autoposters.append(foodPoster)
 
 	for poster in autoposters:
